@@ -1,0 +1,6 @@
+# per-team artifacts / local junk
+*.zip
+*.raw
+*.dmp
+scratchpad/
+.DS_Store
