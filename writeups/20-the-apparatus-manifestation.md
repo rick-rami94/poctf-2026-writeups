@@ -46,7 +46,7 @@ no token gate, which is how the mechanics were tested locally in Docker).
 ## Flag
 
 ```
-POCTF{126.2050.C5O7HDBLJUDYFY4G.QOM3S7LGGDVME5RYTE4XRXMNG7}
+POCTF{REDACTED}
 ```
 
 ## Lesson

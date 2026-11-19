@@ -1,6 +1,15 @@
-# per-team artifacts / local junk
+# Per-team credentials and challenge binaries — never commit (team fingerprint)
 *.zip
-*.raw
-*.dmp
-scratchpad/
+*.token
+*.key
+game.token
+team.key
+creds/
+*.exe
+*.x86_64
+*.wav
+*.pck
+# scratch
+__pycache__/
+*.pyc
 .DS_Store

@@ -50,7 +50,7 @@ uninitialized `read` matched `ks[8:56]`, confirming the key.
 ## Flag
 
 ```
-POCTF{131.2050.b1f0a6ae66c5c850.KONEK6EEXGJBLZHSLUPNGKG4G5}
+POCTF{REDACTED}
 ```
 
 ## Lesson

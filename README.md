@@ -12,19 +12,35 @@ Full public writeups belong *after* the event; treat this as a working log until
 
 | # | Challenge | Category | Pts | Technique | Flag / Token |
 |---|-----------|----------|-----|-----------|--------------|
-| 1 | Letters Never Sent | Crypto | 95 | Beaufort cipher, key hidden in letter's starred border | `POCTF{2.2050.NJ47LD7N2ELTFFG3.PZRQ6RH5SAAYHJU7SQPCWOI7F2}` |
-| 2 | Forty Measures Deep | Crypto | 100 | MIDI pitches → 40-symbol alphabet | `POCTF{74.2050.T4NM5NPGIZTMT5QX.L4MU42ML4UGQWA2KJQUN42U3DY}` |
-| 3 | The Apparatus, Rapport | Crypto | 125 | Tic-tac-toe move order → Beaufort key | `POCTF{5.2050.EFMXGQ7UFYNXOWN2.VG6PGGWQE5234SYTRURYJ5TUEC}` |
-| 4 | The Notary's Seal | Crypto | 135 | RSA e=3, unpadded short message → cube root | `POCTF{75.2050.RC5URB7PUKEN4LKT.FCUYGOPZRNV3TX2PEBEURBH64T}` |
-| 5 | A Map of Small Things | Crypto | 137 | Supersingular curve, smooth order → Pohlig–Hellman | `k = 2527582657287975517` |
-| 6 | Noise Below the Signal | Crypto | 141 | Low-noise small-secret LWE → lattice (Kannan + LLL) | `[-1,3,0,1,3,-1,0,-3,-1,0,2,-2,0,1,-3]` |
-| 7 | Read Me My Fortune | Exploitation | 104 | Python `str.format` injection | `POCTF{127.2050.DGLZJ3ZPOTROVNZY.I2RFNKTPARFTEOMHAQDOBBAYIZ}` |
-| 8 | Thirty-Two Steps Down | Exploitation | 128 | Sandbox VM off-by-one on level check | `POCTF{129.2050.DWOQTFIZVFPCJLK7.VOPLWA7E35HLEUGOX7RNXO4YS7}` |
-| 9 | The Interpreter's Margin | Exploitation | 141 | Node `vm` escape via host object's constructor | `POCTF{125.2050.d1416748e5c06930.5HAYSGVDVSQLLTIKHTDVAKQETW}` |
-| 10 | Archaeology of Mistakes | Forensics | 100 | Carve JPEGs from disk image, read EXIF | `VZQ3L5ON35TG7A3L` |
-| 11 | A Quiet Home | Forensics | 137 | Rogue MQTT device serial in broker log + pcap | `V5X24QUBDB5D5P4N` |
-| 12 | The Apparatus, Ectograph | Forensics | 141 | Unregistered device id in Threshold SQLite | `J567O3WMW5FLV2KA` |
-| 13 | The House Always Misses | Game Hacking | 100 | Run Godot game in Docker, scanmem the win check | `POCTF{49.2050.3ac36b180e5e5b00bf2dc142a3c8aca3.66AXVDRWWNQTMTKXR4S3ZFSUB7}` |
+| 1 | Letters Never Sent | Crypto | 95 | Beaufort cipher, key hidden in letter's starred border | `redacted` |
+| 2 | Forty Measures Deep | Crypto | 100 | MIDI pitches → 40-symbol alphabet | `redacted` |
+| 3 | The Apparatus, Rapport | Crypto | 125 | Tic-tac-toe move order → Beaufort key | `redacted` |
+| 4 | The Notary's Seal | Crypto | 135 | RSA e=3, unpadded short message → cube root | `redacted` |
+| 5 | A Map of Small Things | Crypto | 137 | Supersingular curve, smooth order → Pohlig–Hellman | `redacted` |
+| 6 | Noise Below the Signal | Crypto | 141 | Low-noise small-secret LWE → lattice (Kannan + LLL) | `redacted` |
+| 7 | Read Me My Fortune | Exploitation | 104 | Python `str.format` injection | `redacted` |
+| 8 | Thirty-Two Steps Down | Exploitation | 128 | Sandbox VM off-by-one on level check | `redacted` |
+| 9 | The Interpreter's Margin | Exploitation | 141 | Node `vm` escape via host object's constructor | `redacted` |
+| 10 | Archaeology of Mistakes | Forensics | 100 | Carve JPEGs from disk image, read EXIF | `redacted` |
+| 11 | A Quiet Home | Forensics | 137 | Rogue MQTT device serial in broker log + pcap | `redacted` |
+| 12 | The Apparatus, Ectograph | Forensics | 141 | Unregistered device id in Threshold SQLite | `redacted` |
+| 13 | The House Always Misses | Game Hacking | 100 | Run Godot game in Docker, scanmem the win check | `redacted` |
+| 14 | Terms and Conditions Apply | Game Hacking | 141 | Replay HMAC event protocol → signed-int32 HP overflow | `redacted` |
+| 15 | Frequency and Consequence | Misc | 121 | Slow FSK in noise; Goertzel per-slot tone decode | `redacted` |
+| 16 | [The Cipher in the Stars](writeups/16-the-cipher-in-the-stars.md) | Crypto | 141 | SARG04 sift + parity (bit-flip) decode | `redacted` |
+| 17 | [The Sandglass](writeups/17-the-sandglass.md) | Exploitation | 98 | SafeLua: whole `io` table copied → `io.open` | `redacted` |
+| 18 | [What the Heap Remembers](writeups/18-what-the-heap-remembers.md) | Exploitation | 100 | Slab leaks stale keystream; regen offline | `redacted` |
+| 19 | [A Few Seconds Either Way](writeups/19-a-few-seconds-either-way.md) | Exploitation | 133 | TOCTOU: check name, swap target in 150ms gap | `redacted` |
+| 20 | [The Apparatus, Manifestation](writeups/20-the-apparatus-manifestation.md) | Exploitation | 145 | Unbounded `amend` heap overflow → fn ptr | `redacted` |
+| 21 | [A Cabin Worth](writeups/21-a-cabin-worth.md) | Forensics | 119 | Joplin pre-checkpoint WAL + AES-GCM (pet-name key) | `redacted` |
+| 22 | [What Goes Unwritten](writeups/22-what-goes-unwritten.md) | Forensics | 120 | Minidump; two base32 halves rejoined | `redacted` ⚠️ unconfirmed |
+| 23 | [The Accused](writeups/23-the-accused.md) | Forensics | 141 | Correlate 3 artifacts → session + operator (one-shot) | `redacted` (operator: Marion Halberd) |
+| 24 | [Leap of Faith](writeups/24-leap-of-faith.md) | Game Hacking | 87 | Godot PCK; win check client-side; replay mint API | `redacted` |
+| 25 | [Client-Side Truth](writeups/25-client-side-truth.md) | Game Hacking | 141 | Server trusts client-reported position + hits | `redacted` |
+| 26 | [The Apparatus, Invocation](writeups/26-the-apparatus-invocation.md) | Misc | 101 | 7×7 Lights Out solved over GF(2) | `redacted` |
+
+Rows 1–15 are detailed inline below; rows 16–26 (this session) link to files in
+[`writeups/`](writeups/).
 
 ## In progress / parked
 
@@ -40,22 +56,7 @@ Full public writeups belong *after* the event; treat this as a working log until
 
 A recovered letter plus a ciphertext `QXGNC{...}`.
 
-Flags start `POCTF{`, so `QXGNC → POCTF` gives the cipher. Subtracting letters
-(key − cipher) yields `FLIGH…` — a **Beaufort** cipher. The key is spelled by the
-six **starred** words around the letter's decorative border, read clockwise:
-**F**ern, **L**ily, **I**ris, **G**arland, **H**arp, **T**ulip → `FLIGHT`.
-
-Digits and punctuation pass through untouched and don't consume key letters.
-
-> A cipher named after the addressee is a hint, not a coincidence.
-
-### 2. Forty Measures Deep
-
-A single MIDI track, 58 equal-length notes, pitch carrying everything.
-
-First five note numbers are `80 79 67 84 70` = ASCII `P O C T F`. All notes fall
-in a ~40-value band (the "forty"), so pitch maps to a 40-symbol alphabet laid up
-the keyboard: `0–9`, `.`, `{`, `A–Z`, `}`. Decode straight through.
+Flags start `POCTF{REDACTED}`. Decode straight through.
 
 > When every note is the same length and volume, the music *is* the message.
 
@@ -158,7 +159,7 @@ realm:
 ```js
 const F = Math.constructor.constructor;    // host Function
 const att = F('return _attendant')();      // runs in host scope
-att.verify_identity('056d55f50722db91');   // token = _SEED.slice(0,16), in source
+att.verify_identity('<redacted>');   // token = _SEED.slice(0,16), in source
 att.retrieve();                            // returns the flag
 ```
 
@@ -187,7 +188,7 @@ once to `zwave/rf_key_c4pf5/attributes`. The log truncates the payload; the pcap
 has it whole:
 
 ```json
-{"node_id": 47, "product_serial": "V5X24QUBDB5D5P4N",
+{"node_id": 47, "product_serial": "<redacted>",
  "manufacturer": "Aeotec", "model": "MiniMote Key Fob (ZW088)"}
 ```
 
@@ -198,7 +199,7 @@ The device "they were carrying" announced its own serial.
 ### 12. The Apparatus, Ectograph
 
 Threshold messenger data directory (SQLite + attachments + config). Elena has
-three real devices; a fourth, `J567O3WMW5FLV2KA` ("Elena's MacBook"), is
+three real devices; a fourth, `<redacted>` ("Elena's MacBook"), is
 registered mid-intrusion from a public IP, with a MacBook **Air** fingerprint
 (she owns a Pro). It sent exactly the three cover-story messages after she went
 silent, and nothing else.
@@ -232,6 +233,23 @@ No macOS build, and it's an interactive game, so:
 
 > When the client signs its own score, editing the client is the exploit — and the
 > rules said so out loud.
+
+### 14. Terms and Conditions Apply
+
+Replay the Godot client's HMAC-signed event protocol → heal the boss past
+`INT32_MAX` → signed-int32 HP wraps negative = dead. Full writeup:
+[`writeups/14-terms-and-conditions.md`](writeups/14-terms-and-conditions.md).
+
+---
+
+## Misc
+
+### 15. Frequency and Consequence
+
+Slow FSK buried in noise; Goertzel per-500ms-slot tone detection, aligned by
+detection confidence. Full writeup:
+[`writeups/15-frequency-and-consequence.md`](writeups/15-frequency-and-consequence.md).
+Reusable decoder: [`tools/fsk_decode.py`](tools/fsk_decode.py).
 
 ---
 

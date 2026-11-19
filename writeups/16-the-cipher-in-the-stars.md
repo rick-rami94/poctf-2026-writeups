@@ -37,7 +37,7 @@ checks and would not decode, confirming the value interpretation.
 ## Flag
 
 ```
-3be39d2648e9a913cab13b4def4f57414ba3651f7e29850ac4fadcc13ec0f68e
+<redacted>
 ```
 
 ## Lesson
