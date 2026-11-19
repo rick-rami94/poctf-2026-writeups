@@ -38,15 +38,18 @@ Full public writeups belong *after* the event; treat this as a working log until
 | 24 | [Leap of Faith](writeups/24-leap-of-faith.md) | Game Hacking | 87 | Godot PCK; win check client-side; replay mint API | `redacted` |
 | 25 | [Client-Side Truth](writeups/25-client-side-truth.md) | Game Hacking | 141 | Server trusts client-reported position + hits | `redacted` |
 | 26 | [The Apparatus, Invocation](writeups/26-the-apparatus-invocation.md) | Misc | 101 | 7×7 Lights Out solved over GF(2) | `redacted` |
+| 27 | [The Consulting Room](writeups/27-the-consulting-room.md) | Crypto | 125 | CBC padding oracle (valid/invalid padding leak) | `redacted` |
+| 28 | [Permission Slip](writeups/28-permission-slip.md) | Exploitation | 140 | setuid-root `system()` shell injection via `argv[1]` | `redacted` |
+| 29 | [Everything Left Open](writeups/29-everything-left-open.md) | Forensics | 67 | Firefox `recovery.jsonlz4` (mozLz4) mid-form field | `redacted` |
+| 30 | [Structural Failure](writeups/30-structural-failure.md) | Forensics | 140 | ZIP rebuilt from intact local headers (central dir smeared) | `redacted` |
+| 31 | [Health Is a Social Construct](writeups/31-health-is-a-social-construct.md) | Game Hacking | 138 | Godot in-place scene/bytecode patch; game mints flag | `redacted` |
 
-Rows 1–15 are detailed inline below; rows 16–26 (this session) link to files in
+Rows 1–15 are detailed inline below; rows 16–31 link to files in
 [`writeups/`](writeups/).
 
 ## In progress / parked
 
-| Challenge | Category | Pts | Status |
-|-----------|----------|-----|--------|
-| The Consulting Room | Crypto | 125 | CBC padding-oracle attack scripted; run parked before completion |
+_Nothing parked right now._
 
 ---
 
